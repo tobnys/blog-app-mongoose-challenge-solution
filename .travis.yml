@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: iMX5yYEosUQ3WDb9QTNV2PHEl9JLCDaYNX9gaOYl+WmYHF79CIa+HZ3RdtEyStBH12kgX5TT1VWv0ZuLhNV95UbZQ79yxtfELdcLTjayzmOUuuqs4eP1tKJDwxyQrj7D/4Ht/HlaZ6IAH7EL5tq1wRv0FK/C1L9H/+8pjVFNtTRlFEizu4cn0ZDbJefzOwPssPkULXLjrHfhItJs0KFRP+vVz5XrUTcVRTKQr92+9SVIZ1JZKyYPbvq3cWknFu2e29UpIVfiyOD8eCsnlANhW2caXJqj9Czqo2lwc69vy8SHOWH9dnbJ+7Ib6YmfLRuFiolrii6GnS+XYzeni60eBFRFyjKgen1S6y67LzzfEAYj6i9P16KTL+YewxeueAFD4uWoecJFwX5UdynM/01IsaZAKX15bIWHi8SHOAuuvCOGh+1SWEHIQQ1nrlHC/tE1KOXlDUUdaNgup52kth3cx80TffhYgeOjG0gKf8qM3DvLveYfq2VF3jrCyvwO9J7YsKtps9l/uV6fTQmp24CX9u6t2eFEgwCEuYGzck7cKAyKZv/IIiloA0Hx7f2ARvD5vSUL212N1anAgJFfnKkLJXhWpkQgC9JyELyYSs4KUQmVa+d40xgaadCHtRdcMi6JphPfaAYwGeckrTU2HgreBGaIq/BVbnXKZgw4Tpp0zx4=
+  app: sleepy-stream-65785
+  on:
+    repo: tobnys/blog-app-mongoose-challenge-solution
