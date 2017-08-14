@@ -1,8 +1,4 @@
 language: node_js
-deploy:
-  provider: heroku
-  api_key:
-    secure: ubuXf/ZvwnJcPDDFzw5+16KrvVpoYZgtVkQrjqelH5DfXVW8FGAqTQEWR/Bhy4RwMVqYV/FZCIv6z4/7jInczHMtR85DMuTeSH+POoEUMQW1pSDZYlavH9BeIO4MbkHDzfL5lWHoga6ePnMhwTtu61wVybqFR/9e8iCGON+hmbE3cj05QUEIalPhdcIreN1WpxFq5hzFv6i7+WLNsSHxq2E63++6lHNo8ppkPhwu1yFBlGYqb34q4917CRPgRssYnbpM+hKn+vDUEdD9kt7hk06IRJJZ595tYzd9hl1w008CN9fR1Tp52QJToewZ9VkclYvIYOTRZJoratSZ4UWbvuUc5dxAiMVyk3XnHRco6jvQXetlMbVA2HIx7WbqqqYrTiVpCwVH2kyRwfB77jm38uynMj1gaphVMpJGO8k8ff0xPISYMpzd218kCJ4FX5K9TwxtHzOgckIqLupv72UPnEK/186POuPG8IOqiOVkNoikXeTw+bYkFuQA+hNKL7ALoKiswTk5zR2K2BDoWFIJTc1CpVS7BHSx/7zSrnIm2EJyCG72EFP9Dml2PWG+/kSPIWsqf0VeEwx8gkIFVvaX49ZDsISWeP/uUfeqMpml9eZGa2Jp70r06nbaQ4ClpALllh2MfETthCS+7Nl669wUPytyuVOhRKL3vSvOf7x/c+8=
-  app: blog-app-mongoose-challenge-solution
-  on:
-    repo: tobnys/blog-app-mongoose-challenge-solution
+node_js: node
+services:
+- mongodb
